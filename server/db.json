@@ -1,0 +1,49 @@
+{
+  "bodegas": [
+    {
+      "id": 1,
+      "name": "Salentein",
+      "zone": "Valle de Uco"
+    },
+    {
+      "id": 2,
+      "name": "Nieto Senetiner",
+      "zone": "Lujan de Cuyo"
+    },
+    {
+      "id": 3,
+      "name": "Trapiche",
+      "zone": "Maipu"
+    },
+    {
+      "id": 4,
+      "name": "Chandon",
+      "zone": "Lujan de Cuyo"
+    },
+    {
+      "id": 5,
+      "name": "Esmeralda",
+      "zone": "Zona Este"
+    },
+    {
+      "id": 6,
+      "name": "Bianchi",
+      "zone": "San Rafael"
+    },
+    {
+      "id": 7,
+      "name": "Septima",
+      "zone": "Lujan de Cuyo"
+    },
+    {
+      "id": 8,
+      "name": "Nieto Senetiner",
+      "zone": "Lujan de Cuyo"
+    },
+    {
+      "id": 9,
+      "name": "Melipal",
+      "zone": "Lujan de Cuyo"
+    }
+  ]
+}
