@@ -1,19 +1,9 @@
 {
   "bodegas": [
     {
-      "id": 1,
-      "name": "Salentein",
-      "zone": "Valle de Uco"
-    },
-    {
       "id": 2,
       "name": "Nieto Senetiner",
       "zone": "Lujan de Cuyo"
-    },
-    {
-      "id": 3,
-      "name": "Trapiche",
-      "zone": "Maipu"
     },
     {
       "id": 4,
@@ -44,6 +34,41 @@
       "id": 9,
       "name": "Melipal",
       "zone": "Lujan de Cuyo"
+    },
+    {
+      "id": 11,
+      "name": "Kaiken",
+      "zone": "Lujan de Cuyo"
+    },
+    {
+      "id": 12,
+      "name": "Jean Raivier",
+      "zone": "San Rafael"
+    },
+    {
+      "id": 13,
+      "name": "La Azul",
+      "zone": "Zona Este"
+    },
+    {
+      "id": 14,
+      "name": "La Rural",
+      "zone": "Maipu"
+    },
+    {
+      "id": 15,
+      "name": "Weinert",
+      "zone": "Lujan de Cuyo"
+    },
+    {
+      "id": 16,
+      "name": "Altos Las Hormigas",
+      "zone": "Valle de Uco"
+    },
+    {
+      "id": 17,
+      "name": "Trapiche",
+      "zone": "Maipu"
     }
   ]
 }

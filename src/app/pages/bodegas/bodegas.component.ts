@@ -14,16 +14,16 @@ import { HttpClient } from '@angular/common/http';
   export class BodegasComponent implements OnInit {
 
     bodegas: Bodega[] = [];
-  
+
     constructor(private bodegaService: BodegaService) { }
-  
+
     ngOnInit(): void {
       this.getBodegas();
     }
-  
-    getBodegas(): void {
-      this.bodegaService.getBodegas()
-        .subscribe(bodegas => this.bodegas = bodegas);
-    }
+
+   getBodegas(): void {
+   this.bodegaService.getBodegas()
+      .subscribe(bodegas => this.bodegas = bodegas);
+     }
 
 }

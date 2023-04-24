@@ -19,7 +19,7 @@ export class FormComponent implements OnInit{
 
   onSubmit() {
     this.bodegaService.addBodega(this.bodega).subscribe()
-    console.log(this.bodega); 
+    console.log(this.bodega);
     this.bodega = {
       id:0,
       name: '',

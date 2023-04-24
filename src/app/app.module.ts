@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BodegasComponent } from './pages/bodegas/bodegas.component';
 import { FormComponent } from './pages/form/form.component';
+import { DeleteComponent } from './pages/bodegas/delete/delete.component';
 import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
@@ -19,7 +20,8 @@ import { FormsModule } from '@angular/forms';
     HeaderComponent,
     FooterComponent,
     BodegasComponent,
-    FormComponent
+    FormComponent,
+    DeleteComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders, HttpParamsOptions } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Bodega } from '../interfaces/bodegas.interfaces';
@@ -19,5 +19,12 @@ export class BodegaService {
   addBodega(bodega: Bodega): Observable<Bodega> {
     return this.http.post<Bodega>((this.url), bodega)
   }
+
+  deleteBodega(bodegaId: any): Observable<Bodega> {
+    const url = `${this.url}/${bodegaId}`;
+    return this.http.delete<Bodega>(url);
+
+  }
+
 }
 
